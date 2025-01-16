@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>Ramen Rater</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <script defer type="module" src="./src/index.js"></script>
+  <script defer type="" src="./src/index.js"></script>
 </head>
 
 <body>
@@ -15,24 +15,25 @@
 
   
   <div id="ramen-menu">
-  
+
+  <!-- //eventually append images of ramen here -->
+   
   </div>
 
 
   <div id="ramen-detail">
-    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-    <h2 class="name">Insert Name Here</h2>
-    <h3 class="restaurant">Insert Restaurant Here</h3>
+    <h2 id="ramen-name" class="name">Insert Name Here</h2>
+    <h3 id="ramen-restaurant" class="restaurant">Insert Restaurant Here</h3>
+    <img id="ramen-image" class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
   </div>
+  
 
   <h3>Rating:</h3>
   <p>
-    <span id='rating-display'>Insert rating here</span> / 10
+    <span id="ramen-rating">Insert rating here</span>
   </p>
   <h3>Comment:</h3>
-  <p id='comment-display'>
-    Insert comment here
-  </p>
+  <p id="ramen-comment">Insert comment here</p>
 
 
   <form id="new-ramen">
