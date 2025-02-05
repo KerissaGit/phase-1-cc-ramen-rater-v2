@@ -1,4 +1,4 @@
-// // index.js
+// index.js
 
 
 //Global Variables
@@ -45,8 +45,6 @@ const addSubmitListener = () => {
       event.preventDefault()
 
    
-
-      //Trying different code method to attempt solution
       const name = document.getElementById('new-name').value
       const restaurant = document.getElementById('new-restaurant').value
       const image = document.getElementById('new-image').value
